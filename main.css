@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url("images/burgerbg.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+
+}
+
+nav{
+    width: 80%;
+    height: 100px;
+    line-height: 20vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links ul{
+    display: flex;
+    gap: 1em;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+}
+
+
+/* main content wrapper styling */
+
+.main-container{
+    width: 80%;
+    margin: auto;
+   
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 80vh;
+    
+}
+
+.h1-header{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: lightgrey;
+}
+
